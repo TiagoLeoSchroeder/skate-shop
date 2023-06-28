@@ -67,7 +67,8 @@ button[type="submit"]
     border-style: solid;
     border-color: #fff;
     border-radius: 10px;
-    transition: 0.5s;
+    transition: 0.4s;
+    cursor: default;
 }
 .perfil
 {
@@ -81,7 +82,8 @@ button[type="submit"]
     border-style: solid;
     border-color: #fff;
     border-radius: 10px;
-    transition: 0.5s;
+    transition: 0.4s;
+    cursor: default;
 }
 .carrinho
 {
@@ -95,7 +97,9 @@ button[type="submit"]
     border-style: solid;
     border-color: #fff;
     border-radius: 10px;
-    transition: 0.5s;
+    transition: 0.4s;
+    cursor: pointer;
+
 }
 .atendimento:hover
 {
