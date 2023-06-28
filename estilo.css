@@ -24,9 +24,9 @@ body
 input[type="text"]
 {
     position: relative;
-    left: 14rem;
+    left: 12rem;
     bottom: 7rem;
-    width: 30rem;
+    width: 27rem;
     height: 4rem;
     font-size: 1.7rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -34,6 +34,7 @@ input[type="text"]
     border-radius: 10px;
     border-color: #000;
     box-shadow: 2px 4px 10px #000;
+    text-align: center;
 }
 ::placeholder
 {
@@ -42,14 +43,89 @@ input[type="text"]
 button[type="submit"]
 {
     position: relative;
-    left: 10rem;
-    bottom: 7rem;
-    width: 3rem;
-    height: 3rem;
+    left: 39.5rem;
+    bottom: 7.65rem;
+    width: 4rem;
+    height: 3.9rem;
     border-style: solid;
     border-radius: 10px;
+    box-shadow: 0px 2px 10px #000;
 }
 .fa-magnifying-glass
 {
     font-size: 1.5rem;
+}
+.atendimento
+{
+    width: 200px;
+    position: relative;
+    margin-left: 44.7rem;
+    bottom: 12.5rem;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.perfil
+{
+    width: 200px;
+    position: relative;
+    margin-left: 60rem;
+    bottom: 18.6rem;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.carrinho
+{
+    width: 200px;
+    position: relative;
+    margin-left: 75rem;
+    bottom: 24.6rem;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.atendimento:hover
+{
+    border-color: #535151;
+}
+.perfil:hover
+{
+    border-color: #535151;
+}
+.carrinho:hover
+{
+    border-color: #535151;
+}
+#mensagens
+{
+    width: 60px;
+    height: 60px;
+}
+#perfil
+{
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+#carrinho
+{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
