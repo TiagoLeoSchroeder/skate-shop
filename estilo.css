@@ -6,5 +6,7 @@
 }
 body
 {
-    background-image: linear-gradient(rgb(167, 166, 166),rgb(9rgb(59, 59, 59), 92),black);
+    background-image: linear-gradient(to right, rgb(159, 125, 190),rgb(143, 91, 190),rgb(74, 74, 180));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
