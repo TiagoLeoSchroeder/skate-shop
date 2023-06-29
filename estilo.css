@@ -20,7 +20,7 @@ body
 }
 .container
 {
-    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, white,grey,rgb(85, 84, 84),rgb(51, 50, 50));
     height: 11rem;
 }
 .container-2
@@ -75,10 +75,11 @@ button[type="submit"]
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     border-style: solid;
-    border-color: #fff;
+    border-color: #000;
     border-radius: 10px;
     transition: 0.4s;
     cursor: default;
+    overflow: hidden;
 }
 .perfil
 {
@@ -90,10 +91,11 @@ button[type="submit"]
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     border-style: solid;
-    border-color: #fff;
+    border-color: #000;
     border-radius: 10px;
     transition: 0.4s;
     cursor: default;
+    overflow: hidden;
 }
 .carrinho
 {
@@ -105,23 +107,23 @@ button[type="submit"]
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     border-style: solid;
-    border-color: #fff;
+    border-color: #000;
     border-radius: 10px;
     transition: 0.4s;
     cursor: pointer;
-
+    overflow: hidden;
 }
 .atendimento:hover
 {
-    border-color: #535151;
+    border-color: #fff;
 }
 .perfil:hover
 {
-    border-color: #535151;
+    border-color: #fff;
 }
 .carrinho:hover
 {
-    border-color: #535151;
+    border-color: #fff;
 }
 #mensagens
 {
@@ -130,6 +132,8 @@ button[type="submit"]
 }
 #perfil
 {
+    position: relative;
+    top: 0.4rem;
     width: 60px;
     height: 60px;
     justify-content: center;
@@ -193,10 +197,10 @@ a:hover
 .carrossel
 {
     position: relative;
-    bottom: 22rem;
+    margin: auto;
     box-shadow: 2px 2px 4px #000;
     overflow: hidden;
-    height: 500px;
+    height: 529px;
     width: 870px;
 }
 .container-3
@@ -209,5 +213,17 @@ a:hover
 {
     object-fit: cover;
     width: 500px;
-    height: 500px;
+    height: 200px;
+}
+img
+{
+    width: 870px;
+    height: 529px;
+}
+.fundo
+{
+    position: relative;
+    top: -22rem;
+    width: 100%;
+    background-color: #292727;
 }
