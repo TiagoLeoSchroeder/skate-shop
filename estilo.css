@@ -157,7 +157,7 @@ button[type="submit"]
     top: 1.5rem;
     left: 4rem;
     font-size: 1.6rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: cursive;
     transition: 0.5s;
     margin-left: 170px;
     transition: 0.2s;
@@ -165,7 +165,7 @@ button[type="submit"]
 .dropdown-content {
     display: none;
     position: absolute;
-    top: 1.8rem;
+    top: 2.3rem;
     background-color: #f9f9f9;
     min-width: 170px;
     min-height: 230px;
@@ -204,7 +204,7 @@ a:hover
     margin: auto;
     box-shadow: 2px 2px 4px #000;
     overflow: hidden;
-    height: 529px;
+    height: 528px;
     width: 870px;
 }
 .container-3
@@ -222,7 +222,7 @@ a:hover
 img
 {
     width: 870px;
-    height: 529px;
+    height: 526px;
 }
 .fundo
 {
@@ -230,4 +230,53 @@ img
     top: -22rem;
     width: 100%;
     background-color: #292727;
+}
+.paragrafo
+{
+    margin-left: 2rem;
+    margin-top: -20rem;
+    font-family: cursive;
+    font-size: 2rem;
+    color: #000;
+    text-shadow: 3px 4px 4px #fff;
+}
+.container-4
+{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}       
+.square
+{
+    width: 17rem;
+    height: 20rem;
+    margin-left: 90px;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: #fff;
+    margin-top: 2rem;
+    box-shadow: 3px 5px 4px #fff;
+    background-color: #4d4a4a;
+}
+.border
+{
+    width: 20rem;
+    height: 20rem;
+    margin-left: 150px;
+    z-index: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+}
+.line
+{
+    background-color: #6d6c6c;
+    width: 75rem;
+    height: 0.3rem;
+    margin-left: 20rem;
+    margin-top: -1.25rem;
+    box-shadow: 2px 2px 5px #fff;
+    border-radius: 10px;
 }
