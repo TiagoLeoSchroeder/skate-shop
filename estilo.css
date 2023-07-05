@@ -259,6 +259,11 @@ img
     margin-top: 2rem;
     box-shadow: 3px 5px 4px #fff;
     background-color: #4d4a4a;
+    transition: 0.4s;
+}
+.square:hover
+{
+    transform: translateY(-15px);
 }
 .border
 {
@@ -272,7 +277,7 @@ img
 }
 .line
 {
-    background-color: #6d6c6c;
+    background-image: linear-gradient(to right, #5f5d5d,grey,rgb(85, 84, 84),rgb(51, 50, 50));
     width: 75rem;
     height: 0.3rem;
     margin-left: 20rem;
@@ -287,6 +292,7 @@ img
     margin-left: 50px;
     margin-top: 20px;
     border-radius: 10px;
+    box-shadow: 2px 4px 5px #000;
 }
 .card1
 {
@@ -303,6 +309,7 @@ img
     margin-left: 50px;
     margin-top: 20px;
     border-radius: 10px;
+    box-shadow: 2px 4px 5px #fff;
 }
 .card2
 {
@@ -319,6 +326,7 @@ img
     margin-left: 50px;
     margin-top: 20px;
     border-radius: 10px;
+    box-shadow: 2px 4px 5px #000;
 }
 .card3
 {
@@ -335,6 +343,7 @@ img
     margin-left: 50px;
     margin-top: 20px;
     border-radius: 10px;
+    box-shadow: 2px 4px 5px #000;
 }
 .card4
 {
