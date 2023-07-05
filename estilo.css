@@ -280,3 +280,67 @@ img
     box-shadow: 2px 2px 5px #fff;
     border-radius: 10px;
 }
+#carta1
+{
+    width: 170px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.card1
+{
+    margin-top: 20px;
+    font-size: 1.6rem;
+    color: #fff;
+    text-shadow: 2px 4px 9px #fff;
+    text-align: center;
+}
+#carta2
+{
+    width: 170px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.card2
+{
+    margin-top: 20px;
+    font-size: 1.6rem;
+    color: #fff;
+    text-shadow: 2px 4px 9px #fff;
+    text-align: center;
+}
+#carta3
+{
+    width: 170px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.card3
+{
+    margin-top: 20px;
+    font-size: 1.6rem;
+    color: #fff;
+    text-shadow: 2px 4px 9px #fff;
+    text-align: center;
+}
+#carta4
+{
+    width: 170px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.card4
+{
+    margin-top: 20px;
+    font-size: 1.6rem;
+    color: #fff;
+    text-shadow: 2px 4px 9px #fff;
+    text-align: center;
+}
