@@ -344,3 +344,12 @@ img
     text-shadow: 2px 4px 9px #fff;
     text-align: center;
 }
+.aparecer
+{
+    visibility: hidden;
+    transition: all 0s;
+}
+.descer:hover .aparecer{
+    visibility: visible;
+    transition-delay: 0.5s;
+}
