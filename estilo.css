@@ -246,7 +246,7 @@ img
     flex-wrap: wrap;
     display: flex;
     flex-direction: row;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }       
 .square
 {
@@ -257,13 +257,13 @@ img
     border-radius: 30px;
     border-color: #fff;
     margin-top: 2rem;
-    box-shadow: 3px 5px 4px #fff;
     background-color: #4d4a4a;
     transition: 0.4s;
 }
 .square:hover
 {
     transform: translateY(-15px);
+    box-shadow: 1px 2px 3px 3px #fff;
 }
 .border
 {
@@ -309,7 +309,7 @@ img
     margin-left: 50px;
     margin-top: 20px;
     border-radius: 10px;
-    box-shadow: 2px 4px 5px #fff;
+    box-shadow: 2px 4px 5px #000;
 }
 .card2
 {
@@ -361,4 +361,12 @@ img
 .descer:hover .aparecer{
     visibility: visible;
     transition-delay: 0.5s;
+}
+a 
+{
+    text-decoration: none;
+}
+.container-4 .square:active
+{
+    transform: translateY(8px);
 }
